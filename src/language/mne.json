@@ -1,6 +1,11 @@
 {
 	"home": {
-		"title": "Pocetna strana"
+		"title": "Registracija"
 	},
-	"hello": "Zdravo {name}!"
+	"hello": "Zdravo {name}!",
+	"language": {
+		"changeLanguage": "Promijeni jezik",
+        "en": "en",
+        "me": "cg"
+	}
 }

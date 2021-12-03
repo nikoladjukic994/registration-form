@@ -1,6 +1,11 @@
 {
 	"home": {
-		"title": "Homepage"
+		"title": "Registration"
 	},
-	"hello": "Hello {name}!"
+	"hello": "Hello {name}!",
+	"language": {
+		"changeLanguage": "Change language",
+		"en": "en",
+		"me": "me"
+	}
 }
