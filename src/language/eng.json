@@ -1,0 +1,6 @@
+{
+	"home": {
+		"title": "Homepage"
+	},
+	"hello": "Hello {name}!"
+}

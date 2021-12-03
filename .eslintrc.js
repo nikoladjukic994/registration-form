@@ -1,0 +1,22 @@
+module.exports = {
+    extends: ["react-app", "react-app/jest", "eslint:recommended"],
+    rules: {
+        "no-console": "warn",
+        "no-dupe-else-if": "error",
+        "no-dupe-keys": "error",
+        "no-duplicate-case": "error",
+        "no-unreachable": "warn",
+        "default-case": "error",
+        "default-case-last": "error",
+        eqeqeq: "warn",
+        "max-classes-per-file": ["error", 1],
+        "no-else-return": "warn",
+        "no-empty-function": "warn",
+        "no-void": "error",
+        radix: ["error", "always"],
+        "no-multiple-empty-lines": ["warn", {max: 2, maxEOF: 0, maxBOF: 0}],
+        "no-duplicate-imports": ["error", {includeExports: true}],
+        "react/no-multi-comp": "error",
+        "react-hooks/exhaustive-deps": "off",
+    },
+};

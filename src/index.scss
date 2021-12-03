@@ -1,0 +1,142 @@
+@import 'assets/style/colors';
+@import './assets/style/variables';
+@import './assets/style/style';
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('./assets/fonts/AvenirNextCyr-Bold.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-BoldItalic';
+  src: url('./assets/fonts/AvenirNextCyr-BoldItalic.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Demi';
+  src: url('./assets/fonts/AvenirNextCyr-Demi.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-DemiItalic';
+  src: url('./assets/fonts/AvenirNextCyr-DemiItalic.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Heavy';
+  src: url('./assets/fonts/AvenirNextCyr-Heavy.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-HeavyItalic';
+  src: url('./assets/fonts/AvenirNextCyr-HeavyItalic.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Light';
+  src: url('./assets/fonts/AvenirNextCyr-Light.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-LightItalic';
+  src: url('./assets/fonts/AvenirNextCyr-LightItalic.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  src: url('./assets/fonts/AvenirNextCyr-Medium.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-MediumItalic';
+  src: url('./assets/fonts/AvenirNextCyr-MediumItalic.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('./assets/fonts/AvenirNextCyr-Regular.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Thin';
+  src: url('./assets/fonts/AvenirNextCyr-Thin.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-ThinItalic';
+  src: url('./assets/fonts/AvenirNextCyr-ThinItalic.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-UltraLight';
+  src: url('./assets/fonts/AvenirNextCyr-UltraLight.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-UltraLightItalic';
+  src: url('./assets/fonts/AvenirNextCyr-UltraLightIt.woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'AvenirNext-Demi', 'AvenirNext-regular', 'Segoe UI', 'Roboto',
+  'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif !important; // !important so we override ant design global fonts
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+::-moz-selection {
+  background-color: var(--selection-color);
+  color: white;
+}
+
+::selection {
+  background-color: var(--selection-color);
+  color: white;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  width: 10px !important;
+  border-radius: 0 !important;
+  background: #d3e1f5 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px !important;
+  background: #97a3b4 !important;
+  border-radius: 0 !important;
+}
+
+div, span, p, button, a, ul, li {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+

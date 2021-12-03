@@ -1,0 +1,6 @@
+{
+	"home": {
+		"title": "Pocetna strana"
+	},
+	"hello": "Zdravo {name}!"
+}
