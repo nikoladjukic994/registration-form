@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "MetropolisRegular";
+	src: url("./font/Metropolis-Regular.woff") format("woff");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MetropolisMedium";
+	src: url("./font/Metropolis-Medium.woff") format("woff");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MetropolisSemiBold";
+	src: url("./font/Metropolis-SemiBold.woff") format("woff");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MetropolisExtraBold";
+	src: url("./font/Metropolis-ExtraBold.woff") format("woff");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MetropolisBlack";
+	src: url("./font/Metropolis-Black.woff") format("woff");
+	font-weight: normal;
+}
+
+.App {
+	overflow: hidden;
+}
+
+.section__container {
+	min-height: calc(100vh - 102px - 57px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	h1 {
+		font-family: MetropolisRegular;
+	}
+}
+
+.btn {
+	min-width: 150px;
+	width: fit-content;
+	min-height: 55px;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: MetropolisMedium;
+	font-size: 15px;
+	line-height: 19px;
+	letter-spacing: 0.45px;
+	text-transform: uppercase;
+	border-radius: 0 !important;
+	box-shadow: unset !important;
+	transition: all 0.3s;
+
+	&.btn__red {
+		color: #fff;
+
+		color: #fff !important;
+		background-color: green !important;
+		border: 2px solid green !important;
+
+		&:hover {
+			color: green !important;
+			background-color: #fff !important;
+		}
+	}
+
+	&.btn__transparent {
+		color: green;
+
+		color: green !important;
+		background-color: transparent !important;
+		border: 2px solid green !important;
+
+		&:hover {
+			color: #fff !important;
+			background-color: green !important;
+		}
+	}
+}

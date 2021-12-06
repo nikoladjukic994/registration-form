@@ -44,7 +44,7 @@
     "process": "0.11.10",
     "prop-types": "^15.7.2",
     "react-bootstrap": "^1.4.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.0",
     "react-select": "^3.1.1",
     "reactstrap": "^8.9.0",
@@ -61,9 +61,14 @@
     "workbox-webpack-plugin": "^6.1.0"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.8.4",
+    "radium": "^0.26.1",
     "react": "^17.0.1",
+    "react-animations": "^1.0.0",
     "react-dom": "^17.0.1",
+    "react-hook-form": "^7.20.5",
     "react-switch-lang": "^1.0.2",
-    "web-vitals": "^1.1.0"
+    "web-vitals": "^1.1.0",
+    "yup": "^0.32.11"
   }
 }

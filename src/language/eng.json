@@ -1,11 +1,43 @@
 {
 	"home": {
-		"title": "Registration"
+		"title": "Welcome to the 'Monkey Casino'",
+		"register": "Register"
+	},
+	"registration": {
+		"title": "Registration",
+		"nextStep": "Next step",
+		"register": "Register"
 	},
 	"hello": "Hello {name}!",
 	"language": {
-		"changeLanguage": "Change language",
+		"changeLanguage": "Language",
 		"en": "en",
 		"me": "me"
+	},
+	"footer": {
+		"copyright": "All rights reserved."
+	},
+	"labels": {
+		"firstName": "First name",
+		"lastName": "Last name",
+		"username": "Username",
+		"email": "Email",
+		"password": "Password",
+		"repeatPassword": "Repeat password"
+	},
+	"placeholders": {
+		"firstName": "Enter first name",
+		"lastName": "Enter last name",
+		"username": "Enter username",
+		"email": "Enter email",
+		"password": "Enter password",
+		"repeatPassword": "Enter repeat password"
+	},
+	"message": {
+		"fieldRequired": "The field is required",
+		"fieldNotValid": "The field is not valid",
+		"fieldMin3": "The field must be at least 3 characters",
+		"fieldMax50": "The field must be at most 50 characters",
+		"fieldMin8": "The field must be at least 8 characters"
 	}
 }

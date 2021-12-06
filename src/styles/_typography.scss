@@ -1,0 +1,138 @@
+// /* TYPOGRAPHY */
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p {
+// 	margin: 0;
+// 	margin-bottom: 1rem;
+// }
+
+// h1 {
+// 	font-family: $metropolisExtraBold;
+// 	color: $amp-gray;
+// 	font-size: 72px;
+// 	margin: 0;
+// 	position: relative;
+// 	white-space: pre-line;
+// 	width: fit-content;
+// 	line-height: 1.14;
+// 	font-weight: normal;
+
+// 	&.white {
+// 		color: $white;
+// 	}
+
+// 	&.semibold {
+// 		font-family: $metropolisSemiBold;
+// 	}
+
+// 	&.underline {
+// 		&::before {
+// 			content: "";
+// 			background: $amp-green;
+// 			height: 13px;
+// 			width: 100%;
+// 			position: absolute;
+// 			bottom: 0.17em;
+// 			z-index: -1;
+// 		}
+// 	}
+// }
+
+// h2 {
+// 	font-family: $metropolisExtraBold;
+// 	color: $amp-gray;
+// 	font-size: 48px;
+// 	margin: 0;
+// 	font-weight: normal;
+// }
+
+// h3 {
+// 	font-family: $metropolisExtraBold;
+// 	color: $amp-gray;
+// 	font-size: 30px;
+// 	margin: 0;
+// 	font-weight: normal;
+
+// 	&.white {
+// 		color: $white;
+// 	}
+// }
+
+// h4 {
+// 	font-family: $metropolisExtraBold;
+// 	color: $amp-gray;
+// 	font-size: 24px;
+// 	margin: 0;
+// 	font-weight: normal;
+// }
+
+// h5 {
+// 	font-family: $metropolisExtraBold;
+// 	color: $amp-gray;
+// 	font-size: 20px;
+// 	margin: 0;
+// 	font-weight: normal;
+// }
+
+// h6 {
+// 	font-family: $metropolisExtraBold;
+// 	color: $amp-gray;
+// 	font-size: 18px;
+// 	margin: 0;
+// 	font-weight: normal;
+// }
+
+// p {
+// 	font-family: $metropolisRegular;
+// 	line-height: 1.8;
+// 	color: $amp-gray;
+// 	font-size: 16px;
+// 	margin: 0;
+// 	font-weight: normal;
+
+// 	&.white {
+// 		color: $white;
+// 	}
+// }
+
+// @media (max-width: 959px) {
+// 	h1 {
+// 		font-size: 45px;
+
+// 		&.underline {
+// 			&::before {
+// 				height: 8px;
+// 				// bottom: 0.6rem;
+// 			}
+// 		}
+// 	}
+
+// 	h2 {
+// 		font-size: 30px;
+// 	}
+
+// 	h3 {
+// 		font-size: 30px;
+// 	}
+
+// 	h4 {
+// 		font-size: 14px;
+// 	}
+
+// 	h5 {
+// 		font-size: 20px;
+// 	}
+
+// 	h6 {
+// 		font-size: 18px;
+// 	}
+
+// 	p {
+// 		line-height: 1.8;
+// 		font-size: 14px;
+// 	}
+// }

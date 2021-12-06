@@ -1,0 +1,43 @@
+label {
+	font-family: MetropolisMedium;
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
+}
+
+input {
+	font-family: MetropolisMedium;
+	font-size: 18px;
+	line-height: 18x;
+	color: black;
+
+	display: block;
+	min-height: 55px;
+	width: 100%;
+	background: transparent;
+	border: 1px solid gray;
+	outline: 0;
+	opacity: 1;
+	padding: 0 1rem;
+
+	&::placeholder {
+		color: gray;
+	}
+}
+
+.input_error {
+	font-family: MetropolisMedium;
+	font-size: 13px;
+	line-height: 15px;
+	color: red;
+	margin: 0 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+	-webkit-text-fill-color: black;
+	-webkit-box-shadow: 0 0 0px 1000px transparent inset;
+	box-shadow: 0 0 0px 1000px transparent inset;
+	transition: background-color 5000s ease-in-out 0s;
+}

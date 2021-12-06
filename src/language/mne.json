@@ -1,11 +1,43 @@
 {
 	"home": {
-		"title": "Registracija"
+		"title": "Dobrodošli u 'Monkey Casino'",
+		"register": "Registruj se"
+	},
+	"registration": {
+		"title": "Registracija",
+		"nextStep": "Sljedeći korak",
+		"register": "Registruj se"
 	},
 	"hello": "Zdravo {name}!",
 	"language": {
-		"changeLanguage": "Promijeni jezik",
-        "en": "en",
-        "me": "cg"
+		"changeLanguage": "Jezik",
+		"en": "en",
+		"me": "cg"
+	},
+	"footer": {
+		"copyright": "Sva prava zadržana."
+	},
+	"labels": {
+		"firstName": "Ime",
+		"lastName": "Prezime",
+		"username": "Korisničko ime",
+		"email": "Email",
+		"password": "Šifra",
+		"repeatPassword": "Ponovite šifru"
+	},
+	"placeholders": {
+		"firstName": "Unesite ime",
+		"lastName": "Unesite prezime",
+		"username": "Unesite korisničko ime",
+		"email": "Unesite email",
+		"password": "Unesite šifru",
+		"repeatPassword": "Ponovite šifru"
+	},
+	"message": {
+		"fieldRequired": "Polje je obavezno",
+		"fieldNotValid": "Polje nije validno",
+		"fieldMin3": "Polje mora imati najmanje 3 karaktera",
+		"fieldMax50": "Polje može imati najviše 50 karaktera",
+		"fieldMin8": "Polje mora imati najmanje 8 karaktera"
 	}
 }
