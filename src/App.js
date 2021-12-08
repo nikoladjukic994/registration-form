@@ -1,4 +1,4 @@
-import React, {memo} from "react";
+import React from "react";
 import {Routes, Route, Link} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header/Header";
@@ -23,4 +23,4 @@ function App() {
 	);
 }
 
-export default translate(memo(App));
+export default translate(App);

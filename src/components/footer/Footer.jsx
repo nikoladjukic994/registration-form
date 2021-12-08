@@ -1,6 +1,6 @@
 import classes from "./Footer.module.scss";
 import {Container} from "react-bootstrap";
-import React, {memo} from "react";
+import React from "react";
 
 import {translate, t} from "react-switch-lang";
 
@@ -14,4 +14,4 @@ function Footer() {
 	);
 }
 
-export default translate(memo(Footer));
+export default translate(Footer);

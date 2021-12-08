@@ -1,0 +1,32 @@
+.navbar {
+	border-bottom: 1px solid gray;
+	z-index: 22;
+}
+
+.logo {
+	height: 75px;
+}
+
+.lang__dropdown {
+	a {
+		font-family: MetropolisRegular;
+		font-size: 18px;
+		line-height: 18px;
+		color: black !important;
+
+		&:hover {
+			color: black !important;
+		}
+
+		&.dropdown-toggle {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	.dropdown-menu {
+		min-width: unset;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

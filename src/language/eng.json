@@ -5,8 +5,9 @@
 	},
 	"registration": {
 		"title": "Registration",
-		"nextStep": "Next step",
-		"register": "Register"
+		"register": "Register",
+		"success": "Registration was successfull",
+		"home": "Home page"
 	},
 	"hello": "Hello {name}!",
 	"language": {
@@ -23,7 +24,9 @@
 		"username": "Username",
 		"email": "Email",
 		"password": "Password",
-		"repeatPassword": "Repeat password"
+		"confirmPassword": "Repeat password",
+		"acceptTermsAndConditions": "I agree to the ",
+		"termsAndConditions": "terms & conditions"
 	},
 	"placeholders": {
 		"firstName": "Enter first name",
@@ -31,11 +34,14 @@
 		"username": "Enter username",
 		"email": "Enter email",
 		"password": "Enter password",
-		"repeatPassword": "Enter repeat password"
+		"confirmPassword": "Enter repeat password"
 	},
 	"message": {
 		"fieldRequired": "The field is required",
 		"fieldNotValid": "The field is not valid",
+        "passwordNotStrong": "Password not strong enough",
+        "fieldMin2": "The field must be at least 2 characters",
+		"fieldMax25": "The field must be at most 25 characters",
 		"fieldMin3": "The field must be at least 3 characters",
 		"fieldMax50": "The field must be at most 50 characters",
 		"fieldMin8": "The field must be at least 8 characters"

@@ -5,8 +5,9 @@
 	},
 	"registration": {
 		"title": "Registracija",
-		"nextStep": "Sljedeći korak",
-		"register": "Registruj se"
+		"register": "Registruj se",
+		"success": "Registracija uspješna",
+		"home": "Početna"
 	},
 	"hello": "Zdravo {name}!",
 	"language": {
@@ -23,7 +24,9 @@
 		"username": "Korisničko ime",
 		"email": "Email",
 		"password": "Šifra",
-		"repeatPassword": "Ponovite šifru"
+		"confirmPassword": "Ponovite šifru",
+		"acceptTermsAndConditions": "Prihvatam ",
+		"termsAndConditions": "uslove korišćenja"
 	},
 	"placeholders": {
 		"firstName": "Unesite ime",
@@ -31,11 +34,12 @@
 		"username": "Unesite korisničko ime",
 		"email": "Unesite email",
 		"password": "Unesite šifru",
-		"repeatPassword": "Ponovite šifru"
+		"confirmPassword": "Ponovite šifru"
 	},
 	"message": {
 		"fieldRequired": "Polje je obavezno",
 		"fieldNotValid": "Polje nije validno",
+		"passwordNotStrong": "Šifra nije dovoljno jaka",
 		"fieldMin3": "Polje mora imati najmanje 3 karaktera",
 		"fieldMax50": "Polje može imati najviše 50 karaktera",
 		"fieldMin8": "Polje mora imati najmanje 8 karaktera"

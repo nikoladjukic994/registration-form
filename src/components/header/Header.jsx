@@ -1,5 +1,5 @@
-import classes from "./Header.module.scss";
-import React, {memo} from "react";
+import "./Header.scss";
+import React from "react";
 import eng from "../../language/eng.json";
 import mne from "../../language/mne.json";
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
@@ -21,11 +21,11 @@ function Header() {
 	};
 
 	return (
-		<Navbar bg="white" expand="lg" className={classes.navbar}>
+		<Navbar bg="white" className="navbar">
 			<Container>
 				<Navbar.Brand>
 					<Link to="/">
-						<img src={logo} alt="Logo" className={classes.logo} />
+						<img src={logo} alt="Logo" className="logo" />
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,7 +33,8 @@ function Header() {
 					<Nav className="me-auto">
 						<NavDropdown
 							title={t("language.changeLanguage")}
-							id="basic-nav-dropdown">
+							id="basic-nav-dropdown"
+							className="lang__dropdown">
 							<NavDropdown.Item onClick={handleSetLanguage("eng")}>
 								{t("language.en")}
 							</NavDropdown.Item>
@@ -49,4 +50,4 @@ function Header() {
 	);
 }
 
-export default translate(memo(Header));
+export default translate(Header);
